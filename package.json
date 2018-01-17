@@ -1,24 +1,25 @@
 {
-  "name": "flyd-conduit",
+  "name": "object-conduit",
   "version": "0.0.1",
-  "description": "Organize your app code by chaining objects of streams together",
+  "description": "Compose functions that take and return objects by continuously merging",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": { },
   "devDependencies": {
+    "flyd": "^0.2.4",
     "common-readme": "^1.1.0",
     "dependency-check": "^3.0.0",
     "standard": "^10.0.3",
     "tape": "^4.8.0"
   },
   "bugs": {
-    "url": "https://github.com/jayrbolton/flyd-conduit/issues"
+    "url": "https://github.com/jayrbolton/object-conduit/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jayrbolton/flyd-conduit.git"
+    "url": "https://github.com/jayrbolton/object-conduit.git"
   },
   "scripts": {
     "test": "dependency-check package.json && standard && node test/",

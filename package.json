@@ -1,12 +1,12 @@
 {
   "name": "object-conduit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compose functions that take and return objects by continuously merging",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": { },
+  "dependencies": {},
   "devDependencies": {
     "flyd": "^0.2.4",
     "common-readme": "^1.1.0",
